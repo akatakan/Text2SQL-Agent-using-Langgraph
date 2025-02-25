@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Veritabanı
+*.db
+data/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Diğer
+*.log
+.DS_Store
+node_modules/
+dist/
+build/
+*.egg-info/ 

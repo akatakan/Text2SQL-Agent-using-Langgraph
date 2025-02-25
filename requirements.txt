@@ -1,0 +1,11 @@
+langchain==0.1.12
+langchain-core==0.1.32
+langchain-openai==0.0.8
+langchain-ollama==0.0.4
+langgraph==0.0.27
+streamlit==1.32.2
+pandas==2.2.1
+sqlalchemy==2.0.28
+python-dotenv==1.0.1
+pytest==8.1.1
+pytest-cov==4.1.0 
