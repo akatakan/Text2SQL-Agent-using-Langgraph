@@ -17,8 +17,8 @@ Bu proje, doğal dil sorguları kullanarak SQL sorgularını otomatik olarak olu
 
 1. Projeyi klonlayın:
 ```bash
-git clone [repo-url]
-cd [repo-directory]
+git clone https://github.com/akatakan/Text2SQL-Agent-using-Langgraph
+cd Text2SQL-Agent-using-Langgraph
 ```
 
 2. Sanal ortam oluşturun ve etkinleştirin:
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 4. `.env` dosyasını yapılandırın:
 ```env
-DATABASE_URL="sqlite:///[path]/salaries.db"
+DATABASE_URL="db-path"
 LLM_MODEL="llama3.1:latest"
 LLM_TEMPERATURE=0.1
 USE_OLLAMA=true
